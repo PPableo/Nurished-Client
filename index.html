@@ -1,0 +1,330 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Nurished Hair Oil — Formulated by a chemical engineer and barber. Science meets the barbershop."
+    />
+    <title>Nurished — Hair Oil</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- ===== NAVBAR ===== -->
+    <nav id="navbar">
+      <a href="#" class="nav-logo">
+        <span class="logo-text">nurished</span>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">Our Story</a></li>
+        <li><a href="#benefits">Benefits</a></li>
+        <li><a href="#ingredients">Ingredients</a></li>
+        <li><a href="#how-to-use">How to Use</a></li>
+        <li><a href="#cta" class="nav-cta">Shop Now</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </nav>
+
+    <!-- ===== HERO ===== -->
+    <section id="hero">
+      <div class="hero-content">
+        <div class="hero-text">
+          <p class="hero-eyebrow">Science-formulated. Barber-approved.</p>
+          <h1>Where <span>Science</span> Meets the Barbershop</h1>
+          <p>
+            Crafted by a chemical engineer and master barber — Nurished hair oil
+            fuses precision chemistry with real barbershop expertise, for hair
+            that truly thrives.
+          </p>
+          <div class="hero-buttons">
+            <a href="#cta" class="btn-primary">Shop Now</a>
+            <a href="#about" class="btn-outline">Our Story</a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <div class="product-placeholder">
+            <img
+              src="/assets/product.png"
+              alt="Nurished Hair Oil bottle"
+              style="max-width: 360px; border-radius: 24px"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== ABOUT ===== -->
+    <section id="about">
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-text">
+            <p class="section-label">Our Story</p>
+            <h2 class="section-title">
+              Born in the Lab.<br />Perfected in the Chair.
+            </h2>
+            <p>
+              Nurished started with one question: why can't a hair product be
+              both scientifically formulated <em>and</em> proven in a real
+              barbershop? Our founder — a licensed barber with a background in
+              chemical engineering — spent years bridging that gap.
+            </p>
+            <p>
+              Every bottle is the result of careful formulation, real-world
+              testing, and constant refinement. We believe your hair deserves
+              ingredients backed by science and proven by skilled hands.
+            </p>
+            <div class="about-stats">
+              <div class="stat">
+                <div class="stat-number">3+</div>
+                <div class="stat-label">Years of R&D</div>
+              </div>
+              <div class="stat">
+                <div class="stat-number">100%</div>
+                <div class="stat-label">Natural Oils</div>
+              </div>
+              <div class="stat">
+                <div class="stat-number">1</div>
+                <div class="stat-label">Perfect Formula</div>
+              </div>
+            </div>
+          </div>
+          <div class="about-cards">
+            <div class="about-card about-card--dark">
+              <div class="about-card-icon">🔬</div>
+              <h3>Engineered for Results</h3>
+              <p>
+                Precision chemistry ensures every ingredient works in synergy
+                for maximum effectiveness.
+              </p>
+            </div>
+            <div class="about-card">
+              <div class="about-card-icon">✂️</div>
+              <h3>Barbershop Tested</h3>
+              <p>
+                Formulated with real insight from the barber's chair — not a lab
+                alone.
+              </p>
+            </div>
+            <div class="about-card">
+              <div class="about-card-icon">🌱</div>
+              <h3>Clean Formula</h3>
+              <p>
+                No harmful fillers — just what your scalp and strands actually
+                need.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== BENEFITS ===== -->
+    <section id="benefits">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-label">Why Nurished</p>
+          <h2 class="section-title">Formulated to Perform</h2>
+          <p>
+            Every ingredient earns its place. Our oil addresses the most common
+            hair and scalp concerns — with results you can see.
+          </p>
+        </div>
+        <div class="benefits-grid">
+          <div class="benefit-card" data-reveal>
+            <div class="benefit-icon">💧</div>
+            <h3>Deep Moisture</h3>
+            <p>
+              Penetrates the hair shaft to restore hydration from within,
+              reducing dryness and brittleness.
+            </p>
+          </div>
+          <div class="benefit-card" data-reveal>
+            <div class="benefit-icon">🌀</div>
+            <h3>Scalp Health</h3>
+            <p>
+              Nourishes the scalp to reduce flakiness, itchiness, and promote a
+              healthy growth environment.
+            </p>
+          </div>
+          <div class="benefit-card" data-reveal>
+            <div class="benefit-icon">✨</div>
+            <h3>Natural Shine</h3>
+            <p>
+              Adds a clean, healthy shine without greasiness — your hair looks
+              great, not oily.
+            </p>
+          </div>
+          <div class="benefit-card" data-reveal>
+            <div class="benefit-icon">🛡️</div>
+            <h3>Strengthens Strands</h3>
+            <p>
+              Reinforces hair from root to tip, minimizing breakage and
+              supporting length retention.
+            </p>
+          </div>
+          <div class="benefit-card" data-reveal>
+            <div class="benefit-icon">🌿</div>
+            <h3>Growth Support</h3>
+            <p>
+              Stimulates the scalp to encourage healthier, fuller-looking hair
+              over time.
+            </p>
+          </div>
+          <div class="benefit-card" data-reveal>
+            <div class="benefit-icon">⚗️</div>
+            <h3>Science-Backed</h3>
+            <p>
+              Every blend decision is guided by chemistry — not trends — for
+              real, lasting results.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== INGREDIENTS ===== -->
+    <section id="ingredients">
+      <div class="container">
+        <div class="ingredients-layout">
+          <div class="ingredients-intro">
+            <p class="section-label">What's Inside</p>
+            <h2 class="section-title">Ingredients You Can Trust</h2>
+            <p>
+              We believe in full transparency. Nurished is formulated with a
+              curated blend of premium, clean oils — each chosen for a specific
+              reason backed by science.
+            </p>
+            <a href="#cta" class="btn-primary btn-teal">View Full Formula</a>
+          </div>
+          <div class="ingredients-list">
+            <div class="ingredient-item" data-reveal>
+              <span class="ingredient-icon">🫒</span>
+              <div>
+                <h4>Argan Oil</h4>
+                <p>
+                  Rich in Vitamin E and fatty acids for intense moisture and
+                  shine.
+                </p>
+              </div>
+            </div>
+            <div class="ingredient-item" data-reveal>
+              <span class="ingredient-icon">🥥</span>
+              <div>
+                <h4>Coconut Oil</h4>
+                <p>
+                  Deep penetration reduces protein loss and strengthens hair.
+                </p>
+              </div>
+            </div>
+            <div class="ingredient-item" data-reveal>
+              <span class="ingredient-icon">🌾</span>
+              <div>
+                <h4>Castor Oil</h4>
+                <p>Stimulates scalp circulation and promotes thicker growth.</p>
+              </div>
+            </div>
+            <div class="ingredient-item" data-reveal>
+              <span class="ingredient-icon">💜</span>
+              <div>
+                <h4>Lavender Oil</h4>
+                <p>
+                  Anti-microbial properties keep the scalp balanced and healthy.
+                </p>
+              </div>
+            </div>
+            <div class="ingredient-item" data-reveal>
+              <span class="ingredient-icon">🌿</span>
+              <div>
+                <h4>Rosemary Oil</h4>
+                <p>
+                  Clinically shown to support hair growth and reduce shedding.
+                </p>
+              </div>
+            </div>
+            <div class="ingredient-item" data-reveal>
+              <span class="ingredient-icon">🌻</span>
+              <div>
+                <h4>Jojoba Oil</h4>
+                <p>
+                  Mimics scalp's natural sebum for balanced, non-greasy
+                  hydration.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== HOW TO USE ===== -->
+    <section id="how-to-use">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-label">Application Guide</p>
+          <h2 class="section-title">How to Use Nurished</h2>
+        </div>
+        <div class="steps-grid">
+          <div class="step" data-reveal>
+            <div class="step-number">1</div>
+            <h3>Dispense</h3>
+            <p>Apply 3–5 drops of oil into the palm of your hand.</p>
+          </div>
+          <div class="step" data-reveal>
+            <div class="step-number">2</div>
+            <h3>Warm Up</h3>
+            <p>Rub palms together to warm the oil and activate the blend.</p>
+          </div>
+          <div class="step" data-reveal>
+            <div class="step-number">3</div>
+            <h3>Apply</h3>
+            <p>Massage into scalp and distribute through damp or dry hair.</p>
+          </div>
+          <div class="step" data-reveal>
+            <div class="step-number">4</div>
+            <h3>Style</h3>
+            <p>Style as usual. Use daily or as needed for best results.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CTA ===== -->
+    <section id="cta">
+      <div class="container cta-inner">
+        <h2>Ready to Transform Your Hair?</h2>
+        <p>
+          Join thousands who've made the switch to science-backed hair care.
+        </p>
+        <a href="#" class="btn-primary">Get Nurished Today</a>
+      </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer>
+      <a href="#" class="nav-logo">
+        <span class="logo-text">nurished</span>
+      </a>
+      <ul class="footer-links">
+        <li><a href="#about">Our Story</a></li>
+        <li><a href="#benefits">Benefits</a></li>
+        <li><a href="#ingredients">Ingredients</a></li>
+        <li><a href="#">Instagram</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <p class="footer-copy">© 2026 Nurished. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
